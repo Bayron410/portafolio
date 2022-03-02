@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    color: var(--letra-clara);
+}
+
+.menu__item {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: var(--letra-menu);
+}
+
+.menu__item:hover {
+    font-size: 1.4rem;
+}
+
+.logo {
+    height: 4rem;
+    margin-left: 1rem;
+}

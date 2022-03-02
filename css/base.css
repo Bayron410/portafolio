@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --fondo-oscuro: #231773;
+    --fondo-claro: #EBEDF2;
+    --fondo-intermedio: #ACB0F2;
+    --intermedio: #4B50BF;
+    --morado: #6E30F2;
+    --letra-clara: #EBEDF2;
+
+    --letra-menu: 'Permanent Marker', cursive;
+}
