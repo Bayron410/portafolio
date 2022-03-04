@@ -1,0 +1,43 @@
+.presentacion {
+    margin: 8rem 3rem 1rem;
+}
+
+.presentacion__titulo {
+    font-weight: 600;
+    color: var(--letra-oscura);
+    font-size: 6rem;
+    /* overflow: hidden;
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .01em;
+    animation: 
+      typing 2s steps(16) 1 normal both,
+      blink-caret .75s steps(16) infinite both; */
+}
+
+.presentacion__titulo:hover {
+    font-size: 6.2rem;
+    transition-duration: 700ms;
+}
+
+.presentacion__texto {
+    font-size: 3rem;
+    color: var(--letra-intermedio);
+}
+
+.presentacion__texto:hover {
+    font-size: 3.1rem;
+    transition-duration: 700ms;
+}
+  
+/* @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+@keyframes blink-caret {
+    from{border-color: 
+        var(--letra-oscura);} 
+    to {border-color: transparent;}
+} */

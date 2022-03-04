@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600&display=swap');
 
 :root {
     --fondo-oscuro: #231773;
@@ -6,7 +6,15 @@
     --fondo-intermedio: #ACB0F2;
     --intermedio: #4B50BF;
     --morado: #6E30F2;
-    --letra-clara: #EBEDF2;
 
-    --letra-menu: 'Permanent Marker', cursive;
+    --letra-intermedio: #ACB0F2;
+    --letra-clara: #EBEDF2;
+    --letra-oscura: #231773;
+
+    --letra: 'League Spartan', sans-serif;
+}
+
+body {
+    background-color: var(--fondo-claro);
+    font-family: var(--letra);
 }
