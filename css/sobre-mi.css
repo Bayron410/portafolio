@@ -1,0 +1,58 @@
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    background: linear-gradient(to bottom, var(--intermedio), var(--fondo-oscuro));
+    padding: 1rem;
+}
+
+.sobre-mi__titulo {
+    margin: 0 4rem 2rem;
+    font-weight: 500;
+    color: var(--letra-clara);
+    font-size: 3rem;
+    transform-origin: top left;
+}
+
+.sobre-mi__texto {
+    text-align: justify;
+    margin: 0 8rem;
+    font-size: 2rem;
+    font-weight: 300;
+    opacity: 0.8;
+    color: var(--letra-clara);
+}
+
+.sobre-mi__redes {
+    display: flex;
+    align-items: center;
+    margin: 2rem 9rem 0;
+}
+
+
+.sobre-mi__redes-logo {
+    height: 2rem;
+}
+
+.sobre-mi__redes-texto {
+    margin: 0 3rem 0 1rem;
+    font-size: 1.6rem;
+    color: var(--letra-clara);
+    font-weight: 400;
+}
+
+.sobre-mi__redes-link {
+    opacity: 0.7;
+}
+
+.sobre-mi__redes-link:hover {
+    transform: scale(1.1);
+    font-weight: 500;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.resaltar {
+    font-weight: 500;
+}

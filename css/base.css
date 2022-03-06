@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
 
 :root {
     --fondo-oscuro: #231773;
@@ -14,7 +15,18 @@
     --letra: 'League Spartan', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--fondo-claro);
     font-family: var(--letra);
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: inherit;
+    color: inherit;
 }

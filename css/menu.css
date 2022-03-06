@@ -2,12 +2,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 13vh;
+    padding: 0.2rem 2rem;
 }
 
 .menu__list {
-    margin: 1rem;
     display: flex;
     flex-direction: row;
+    animation: 1s inicio-menu 1;
+}
+
+@keyframes inicio-menu {
+    0% {
+        opacity: 0;
+        margin-top: -100px;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
 }
 
 .menu__item {
@@ -15,7 +28,6 @@
     padding: 1rem 1rem 1.2rem;
     border-top: 4px solid transparent;
     font-size: 1.3rem;
-    margin-left: 0.7rem;
     margin-right: 0.7rem;
 }
 
@@ -31,5 +43,24 @@
 
 .logo {
     height: 2.5rem;
-    margin-left: 1rem;
+    z-index: 1;
+    animation: 1s inicio-menu 1;
+}
+
+.logo:hover {
+    animation: 1s logo-hover 1;
+}
+
+@keyframes logo-hover {
+    30% {
+        transform: rotate(30deg) scale(1.3);
+    }
+
+    60% {
+        transform: rotate(-10deg) scale(.8);
+    }
+
+    90% {
+        transform: rotate(5deg) scale(1.1);
+    }
 }

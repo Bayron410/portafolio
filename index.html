@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,24 @@
     <title>Bayron410 WEB Developer</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/menu/menu.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/presentacion/presentacion.css">
+    <link rel="stylesheet" href="css/presentacion.css">
+    <link rel="stylesheet" href="css/sobre-mi.css">
+    <link rel="stylesheet" href="css/skills.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="menu">
-            <img class="logo" src="img/Logo-B4-02.svg" alt="logo bayron410">
+            <img class="logo" src="img/Logo-B4-02.svg" alt="logo b410">
             <ul class="menu__list">
-                <li class="menu__item">Sobre mi</li>
-                <li class="menu__item">Skills</li>
-                <li class="menu__item">Hobbies</li>
-                <li class="menu__item">Formación</li>
-                <li class="menu__item">Proyecto</li>
-                <li class="menu__item">Contacto</li>
+                <li class="menu__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__item"><a href="#skills">Skills</a></li>
+                <li class="menu__item"><a href="#">Hobbies</a></li>
+                <li class="menu__item"><a href="#">Formación</a></li>
+                <li class="menu__item"><a href="#">Proyecto</a></li>
+                <li class="menu__item"><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -30,6 +34,56 @@
             <h1 class="presentacion__titulo">Hey! Soy Bayron.</h1>
             <p class="presentacion__texto">Diseño y construyo paginas <br>web multiplataforma.</p>
         </section>
+        <section class="sobre-mi" id="sobre-mi">
+            <h2 class="sobre-mi__titulo">Sobre mi</h2>
+            <p class="sobre-mi__texto">
+                <span class="resaltar">Desarrollador Web</span>, ubicado en Colombia. Actualmente estudiante en el
+                programa de desarrollo <span class="resaltar">Front-End</span> llamado <span class="resaltar">Oracle
+                    ONE</span>.<br><br>
+                Soy una persona creativa y con habilidades lógicas, apasionado por el diseño y desarrollo web, lo que me
+                permite no perder detalle entre diseño y desarrollo.
+            </p>
+            <div class="sobre-mi__redes">
+                <a class="sobre-mi__redes-link" href="https://github.com/Bayron410" target="_blank">
+                    <img class="sobre-mi__redes-logo" src="img/github.png" alt="Github">
+                    <p class="sobre-mi__redes-texto">Github</p>
+                </a>
+                <a class="sobre-mi__redes-link" href="https://www.linkedin.com/in/john-casta%C3%B1eda/" target="_blank">
+                    <img class="sobre-mi__redes-logo" src="img/linkedin.png" alt="LinkedIn">
+                    <p class="sobre-mi__redes-texto">LinkedIn</p>
+                </a>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h2 class="skills__titulo">Skills</h2>
+            <div class="skills__lista">
+                <div class="skills__caja">
+                    <img class="skills__caja-logo" src="img/logo-html.svg" alt="HTML5">
+                    <p class="skills__caja-texto">HTML</p>
+                </div>
+                <div class="skills__caja">
+                    <img class="skills__caja-logo" src="img/logo-css.svg" alt="CSS">
+                    <p class="skills__caja-texto">CSS</p>
+                </div>
+                <div class="skills__caja">
+                    <img class="skills__caja-logo" src="img/Logo-js.svg" alt="JavaScript">
+                    <p class="skills__caja-texto">JavaScript</p>
+                </div>
+                <div class="skills__caja">
+                    <img class="skills__caja-logo" src="img/logo-python.svg" alt="Python">
+                    <p class="skills__caja-texto">Python</p>
+                </div>
+                <div class="skills__caja">
+                    <img class="skills__caja-logo" src="img/logo-java.svg" alt="Java">
+                    <p class="skills__caja-texto">Java</p>
+                </div>
+                <div class="skills__caja">
+                    <img class="skills__caja-logo" src="img/logo-vuejs.svg" alt="VueJS">
+                    <p class="skills__caja-texto">VueJS</p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
+
 </html>
