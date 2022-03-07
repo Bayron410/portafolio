@@ -1,5 +1,11 @@
 .presentacion {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentacion__caja {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 3rem;
@@ -14,28 +20,30 @@
     animation: 2s inicio-texto 1;
 }
 
+.presentacion__foto {
+    height: 25rem;
+    animation: 3s inicio-foto 1;
+}
+
+@keyframes inicio-foto {
+    0% {
+        opacity: 0;
+    }
+
+}
+
 @keyframes inicio-texto {
     0% {
         opacity: 0;
-        margin-left: 10%;
+        margin-left: -100%;
     }
     40% {
         opacity: 0%;
     }
 }
 
-.presentacion__titulo:hover {
-    font-size: 6.2rem;
-    transition-duration: 600ms;
-}
-
 .presentacion__texto {
     font-size: 3rem;
     color: var(--letra-intermedio);
     animation: 3s inicio-texto 1;
-}
-
-.presentacion__texto:hover {
-    font-size: 3.1rem;
-    transition-duration: 700ms;
 }

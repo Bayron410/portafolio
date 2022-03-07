@@ -42,6 +42,7 @@
 }
 
 .logo {
+    margin-left: 2rem;
     height: 2.5rem;
     z-index: 1;
     animation: 1s inicio-menu 1;
