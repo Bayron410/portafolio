@@ -13,16 +13,20 @@
     <link rel="stylesheet" href="css/presentacion.css">
     <link rel="stylesheet" href="css/sobre-mi.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/hobbies.css">
 </head>
 
 <body>
     <header class="header">
         <nav class="menu">
-            <img class="logo" src="img/Logo-B4-02.svg" alt="logo b410">
+            <div class="menu__mobile">
+                <img class="menu__logo" src="img/Logo-B4-02.svg" alt="logo b410">
+                <img class="menu__icono" src="img/icono-menu.svg" alt="Icono-Menu">
+            </div>
             <ul class="menu__list">
                 <li class="menu__item"><a href="#sobre-mi">Sobre mi</a></li>
                 <li class="menu__item"><a href="#skills">Skills</a></li>
-                <li class="menu__item"><a href="#">Hobbies</a></li>
+                <li class="menu__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__item"><a href="#">Formación</a></li>
                 <li class="menu__item"><a href="#">Proyecto</a></li>
                 <li class="menu__item"><a href="#">Contacto</a></li>
@@ -48,11 +52,11 @@
             </p>
             <div class="sobre-mi__redes">
                 <a class="sobre-mi__redes-link" href="https://github.com/Bayron410" target="_blank">
-                    <img class="sobre-mi__redes-logo" src="img/github.png" alt="Github">
+                    <img class="sobre-mi__redes-logo" src="img/redes/github.png" alt="Github">
                     <p class="sobre-mi__redes-texto">Github</p>
                 </a>
                 <a class="sobre-mi__redes-link" href="https://www.linkedin.com/in/john-casta%C3%B1eda/" target="_blank">
-                    <img class="sobre-mi__redes-logo" src="img/linkedin.png" alt="LinkedIn">
+                    <img class="sobre-mi__redes-logo" src="img/redes/linkedin.png" alt="LinkedIn">
                     <p class="sobre-mi__redes-texto">LinkedIn</p>
                 </a>
             </div>
@@ -61,32 +65,54 @@
             <h2 class="skills__titulo">Skills</h2>
             <div class="skills__lista">
                 <div class="skills__caja">
-                    <img class="skills__caja-logo" src="img/logo-html.svg" alt="HTML5">
+                    <img class="skills__caja-logo" src="img/skills/logo-html.svg" alt="HTML5">
                     <p class="skills__caja-texto">HTML</p>
                 </div>
                 <div class="skills__caja">
-                    <img class="skills__caja-logo" src="img/logo-css.svg" alt="CSS">
+                    <img class="skills__caja-logo" src="img/skills/logo-css.svg" alt="CSS">
                     <p class="skills__caja-texto">CSS</p>
                 </div>
                 <div class="skills__caja">
-                    <img class="skills__caja-logo" src="img/Logo-js.svg" alt="JavaScript">
+                    <img class="skills__caja-logo" src="img/skills/Logo-js.svg" alt="JavaScript">
                     <p class="skills__caja-texto">JavaScript</p>
                 </div>
                 <div class="skills__caja">
-                    <img class="skills__caja-logo" src="img/logo-python.svg" alt="Python">
+                    <img class="skills__caja-logo" src="img/skills/logo-python.svg" alt="Python">
                     <p class="skills__caja-texto">Python</p>
                 </div>
                 <div class="skills__caja">
-                    <img class="skills__caja-logo" src="img/logo-java.svg" alt="Java">
+                    <img class="skills__caja-logo" src="img/skills/logo-java.svg" alt="Java">
                     <p class="skills__caja-texto">Java</p>
                 </div>
                 <div class="skills__caja">
-                    <img class="skills__caja-logo" src="img/logo-vuejs.svg" alt="VueJS">
+                    <img class="skills__caja-logo" src="img/skills/logo-vuejs.svg" alt="VueJS">
                     <p class="skills__caja-texto">VueJS</p>
                 </div>
             </div>
         </section>
+        <section class="hobbies" id="hobbies">
+            <h2 class="hobbies__titulo">Hobbies</h2>
+            <div class="hobbies__lista">
+                <div class="hobbies__caja">
+                    <img src="img/hobbies/cinema-img.svg" alt="cinema" class="hobbies__caja-img">
+                    <p class="hobbies__caja-texto">Ir al cine</p>
+                </div>
+                <div class="hobbies__caja">
+                    <img src="img/hobbies/comida-img.svg" alt="comida" class="hobbies__caja-img">
+                    <p class="hobbies__caja-texto">Salir a comer</p>
+                </div>
+                <div class="hobbies__caja">
+                    <img src="img/hobbies/read-img.svg" alt="lectura" class="hobbies__caja-img">
+                    <p class="hobbies__caja-texto">Leer</p>
+                </div>
+                <div class="hobbies__caja">
+                    <img src="img/hobbies/travel-img.svg" alt="viajes" class="hobbies__caja-img">
+                    <p class="hobbies__caja-texto">Viajar</p>
+                </div>
+            </div>
+        </section>
     </main>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>

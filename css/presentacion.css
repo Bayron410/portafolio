@@ -47,3 +47,26 @@
     color: var(--letra-intermedio);
     animation: 3s inicio-texto 1;
 }
+
+
+@media screen and (max-width: 425px) {
+
+    .presentacion__foto {
+        display: none;
+    }
+
+    .presentacion__titulo {
+        font-size: 3.5rem;
+    }
+
+    .presentacion__texto {
+        font-size: 2.5rem;
+    }
+
+    .presentacion__caja {
+        padding: 0;
+        width: 100vh;
+        padding: 0 5rem 0 2rem;
+        height: calc(100vh - 68.8px);
+    }
+}

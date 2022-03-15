@@ -56,3 +56,33 @@
 .resaltar {
     font-weight: 500;
 }
+
+@media screen and (max-width: 425px) {
+    .sobre-mi {
+        height: 100%;
+    }
+
+    .sobre-mi__titulo {
+        margin: 2rem 0.5rem 2rem;
+        font-size: 2rem;
+    }
+
+    .sobre-mi__texto {
+        margin: 0 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .sobre-mi__redes {
+        margin: 2rem auto 2rem;
+    }
+    
+    
+    .sobre-mi__redes-logo {
+        height: 1.5rem;
+    }
+    
+    .sobre-mi__redes-texto {
+        font-size: 1.4rem;
+    }   
+}
